@@ -6,7 +6,7 @@ var port = 3000;
 var server = http.createServer(function(req, res){
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World!!!\n');
+  res.end('Hello World!!! (Version 2)\n');
 });
 
 server.listen(port, hostname, function(){
