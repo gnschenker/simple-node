@@ -6,6 +6,4 @@ echo "Is Docker available?"
 docker -v
 echo "Is Docker Compose available?"
 docker-compose -v
-echo "Is Docker Cloud CLI available?"
-docker-cloud -v
 exit 0
