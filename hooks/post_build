@@ -2,4 +2,5 @@
 echo "============================================"
 echo "|                post-build                |"
 echo "============================================"
+docker run alpine echo "Hello, this is Alpine running"
 exit 0
